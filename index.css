@@ -1,0 +1,60 @@
+body{
+	background-image: url("computer.jpg");	
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 500px 200px;
+}
+h1{
+	text-align:center;
+	color:#00FFFF;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+p.boldred{
+	font-weight: bold;
+	color: red;
+}
+	
+nav ul{
+list-style:none;
+text-align: right; 
+}
+
+nav li{
+	display: inline;
+}
+.floatRight{
+	float:right;
+}
+
+div{
+	font-weight: bold;
+}
+
+table{	
+	width: 50%;
+	border-collapse:collapse;	
+}	
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td{
+	text-align: center;	
+}
+
+tr:nth-child(even) {
+background: lightgreen;
+}
+tr:nth-child(odd) {
+background: lightblue;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+
+	
